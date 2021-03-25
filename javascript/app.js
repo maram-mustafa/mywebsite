@@ -2,8 +2,7 @@ alert("welcome in other community ")
 
 
 
-var favAnimal = prompt ('Choose your favorite', 'Dogs , Cats , Barids, monkys')
-
+var favAnimal = prompt('Choose your favorite', 'Dogs , Cats , Barids, monkys')
 if (favAnimal === 'Dogs'){
 document.write(<img src="https://rjeem.com/wp-content/uploads/2019/06/%D8%A7%D9%84%D9%83%D9%84%D8%A7%D8%A8.jpg" />)
 } 
