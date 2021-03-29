@@ -22,6 +22,7 @@ var dogName = 'Dog';
 
 while( dogGame !== dogName){
     dogGame = prompt('please try again!')
+    return dogName;
 }
 }
 gussingGame()
@@ -49,8 +50,17 @@ document.write(image);
 
 
 
+var month = prompt('In which month do you want to receive your pet? Enter the month please!')
 
+function calculateDate(date){
+    //  number(3) indicating the current month
+    var monthOfReceipt = month - 3; 
+    alert('You will receive a message with all the details after ' + monthOfReceipt + ' month')
 
+    return monthOfReceipt;
+}
+
+calculateDate(month);
 
 
 
