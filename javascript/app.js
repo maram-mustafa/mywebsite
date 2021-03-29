@@ -16,13 +16,15 @@ document.write('<img src="https://rjeem.com/wp-content/uploads/2019/06/%D8%A7%D9
     alert('pick your favorite again please!');
 }
 
-
+function gussingGame(){
 var dogGame = prompt(' I have four legs. im very smart and i like play. i like smell things, Guess who I am ...');
 var dogName = 'Dog';
 
 while( dogGame !== dogName){
     dogGame = prompt('please try again!')
 }
+}
+gussingGame()
 
 
 
@@ -47,3 +49,9 @@ document.write(image);
 
 
 
+
+
+
+
+
+  
