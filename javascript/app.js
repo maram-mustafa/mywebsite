@@ -2,7 +2,7 @@ alert("welcome in other community ");
 
 
 
-var favAnimal = prompt('Choose your favorite', 'Dogs , Cats , Birds , monkys');
+var favAnimal = prompt('Choose your favorite', 'Dogs , Cats , Birds , monkeys');
 alert ("you will see what you choose in the end of page")
 if (favAnimal === 'Dogs'){
 document.write('<img src="https://rjeem.com/wp-content/uploads/2019/06/%D8%A7%D9%84%D9%83%D9%84%D8%A7%D8%A8.jpg" hight= 500 width=500>')
@@ -38,7 +38,7 @@ for(var i = 1 ; i <=adaptionChoose; i++ ){
         image = image + '<img src="images/dog.jpg" hight= 500 width= 500 />';
     }else if(animalName === 'cat'){
         image = image + '<img src="images/cat.jpg" hight= 500 width= 500 />';
-    }else if(animalName === 'monky'){
+    }else if(animalName === 'monkey'){
         image = image + '<img src="images/monky.jpg" hight= 500 width= 500 />';
     }else if(animalName === 'bird'){
         image = image + '<img src="images/birds.jpg" hight= 500 width= 500 />';
